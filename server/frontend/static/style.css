@@ -124,3 +124,16 @@ img{
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
 }
+
+.contactus {
+    width: 80%;
+    border-radius: 20px;
+    border: 2px outset lightgray;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+
+
+   
+
