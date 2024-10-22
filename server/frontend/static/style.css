@@ -127,8 +127,9 @@ img{
 
 .contactus {
     width: 80%;
-    border-radius: 20px;
-    border: 2px outset lightgray;
+    border-radius: 50px;
+    border: solid 2px grey;
+    box-shadow: 5px 5px 5px gray;
     margin-top: 50px;
     margin-bottom: 30px;
 }
