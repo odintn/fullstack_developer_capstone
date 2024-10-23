@@ -96,7 +96,7 @@ def initiate():
         },
         {
             "name": "Camry",
-            "type": "Sedan", 
+            "type": "Sedan",
             "year": 2023,
             "car_make": car_make_instances[4]
         },
