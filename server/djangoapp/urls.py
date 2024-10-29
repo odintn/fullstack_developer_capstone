@@ -34,6 +34,7 @@ urlpatterns = [
     path(route='add_review', view=views.add_review, name='add_review'),
 
     # path for inventory view
-    path(route='add_inventory/<int:dealer_id>', view=views.get_inventory, name='get_inventory'),
+    path(route='add_inventory/<int:dealer_id>', view=views.get_inventory,
+         name='get_inventory'),
 
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
