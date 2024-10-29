@@ -6,6 +6,7 @@ ADD package.json .
 ADD app.js .
 ADD data/car_records.json .
 COPY . .
+RUN npm install
 
 EXPOSE 3050
 
